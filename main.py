@@ -1,6 +1,7 @@
 import sys
 import os
 import warnings
+from dotenv import load_dotenv
 
 # Suppress specific warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -60,7 +61,9 @@ embeddings=HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-bas
 create_and_save_faiss_vector_store(docs, embeddings, "faiss_store_huggingFace.pkl")
 VectorStore = load_faiss_vector_store("faiss_store_huggingFace.pkl")
 
-Token = "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"
+load_dotenv()
+
+Token = os.getenv('HuggingFaceToken')
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = Token
 
 # Initialize Language Model

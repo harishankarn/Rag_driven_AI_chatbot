@@ -5,8 +5,9 @@ bitsandbytes
 transformers 
 langchain
 langchain_community
-langchain_huggingfac
+langchain_huggingface
 sentence_transformers
 unstructured
 faiss-cpu
-llama-cpp-python
+python-dotenv
+
