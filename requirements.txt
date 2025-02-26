@@ -1,0 +1,12 @@
+einops 
+accelerate  
+bitsandbytes
+
+transformers 
+langchain
+langchain_community
+langchain_huggingfac
+sentence_transformers
+unstructured
+faiss-cpu
+llama-cpp-python
