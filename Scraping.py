@@ -93,7 +93,7 @@ for idx, url in enumerate(webpage_urls[:50000]):
     scraped_data.append(data)
     time.sleep(1)  
 
-csv_file = "sitemap_data.csv"
+csv_file = "Data/sitemap_data.csv"
 with open(csv_file, "w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
     writer.writerow(["Title", "URL", "Content"])
@@ -102,7 +102,7 @@ with open(csv_file, "w", newline="", encoding="utf-8") as file:
 
 print(f"\nData saved to {csv_file}")
 
-json_file = "sitemap_data.json"
+json_file = "Data/sitemap_data.json"
 with open(json_file, "w", encoding="utf-8") as f:
     json.dump(scraped_data, f, indent=4)
 

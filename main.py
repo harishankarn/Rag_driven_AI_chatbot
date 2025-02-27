@@ -21,11 +21,11 @@ def ask_question(chain, question):
 
 def main():
     # Use the function to load the FAISS vector store
-    VectorStore = load_faiss_vector_store("faiss_store_huggingFace.pkl")
+    VectorStore = load_faiss_vector_store("Data/faiss_store_huggingFace.pkl")
 
     # Initialize Language Mode
     load_dotenv()
-
+    
     Token = os.getenv('HuggingFaceToken')
     os.environ["HUGGINGFACEHUB_API_TOKEN"] = Token
 
