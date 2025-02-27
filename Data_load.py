@@ -10,7 +10,8 @@ urls = get_urls_from_csv(csv_file_path)
 docs = check_and_update_chunks(urls, chunk_size=2000, chunk_overlap=400, chunk_file_path="chunks.pkl")
 
 # Initialize the Hugging Face BGE embeddings
-embeddings=HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+#embeddings=HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+embeddings = HuggingFaceEmbeddings(model_name="intfloat/e5-base-v2")
  
 # Use the function to create and save the FAISS vector store
 create_and_save_faiss_vector_store(docs, embeddings, "faiss_store_huggingFace.pkl")

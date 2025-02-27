@@ -1,9 +1,18 @@
-transformers 
-langchain
-langchain_community
-langchain_huggingface
-sentence_transformers
-unstructured
-faiss-cpu
-python-dotenv
-dotenv
+python-dotenv # for loading .env file
+faiss-cpu # for faiss
+# faiss-gpu - for faiss with GPU with CUDA aka nvidia
+langchain_community # for community models
+langchain # for langchain models
+unstructured # for unstructured data
+sentence_transformers # for sentence embeddings
+
+transformers # for transformers models
+langchain_huggingface # for huggingface models
+
+# einops 
+# accelerate  
+
+# triton - for linux enviroment to use AWQ
+# AWQ - quantization technique
+
+

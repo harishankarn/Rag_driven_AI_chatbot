@@ -1,3 +1,4 @@
 .env
-faiss_store_huggingFace.pkl
 chunks.pkl
+faiss_store_huggingFace.pkl
+
