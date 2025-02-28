@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>RAG_DRIVEN_AI_CHATBOT</h1>
 <p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
+	<em></em>
 </p>
 <p align="left">
 	<!-- Shields.io badges disabled, using skill icons. --></p>
@@ -16,15 +16,16 @@
 
 ## 🔗 Table of Contents
 
+- [🔗 Table of Contents](#-table-of-contents)
 - [📍 Overview](#-overview)
 - [👾 Features](#-features)
 - [📁 Project Structure](#-project-structure)
-  - [📂 Project Index](#-project-index)
+	- [📂 Project Index](#-project-index)
 - [🚀 Getting Started](#-getting-started)
-  - [☑️ Prerequisites](#-prerequisites)
-  - [⚙️ Installation](#-installation)
-  - [🤖 Usage](#🤖-usage)
-  - [🧪 Testing](#🧪-testing)
+	- [☑️ Prerequisites](#️-prerequisites)
+	- [⚙️ Installation](#️-installation)
+	- [🤖 Usage](#-usage)
+	- [🧪 Testing](#-testing)
 - [📌 Project Roadmap](#-project-roadmap)
 - [🔰 Contributing](#-contributing)
 - [🎗 License](#-license)
@@ -34,13 +35,13 @@
 
 ## 📍 Overview
 
-<code>❯ REPLACE-ME</code>
+
 
 ---
 
 ## 👾 Features
 
-<code>❯ REPLACE-ME</code>
+
 
 ---
 
@@ -73,19 +74,19 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/harishankarn/Rag_driven_AI_chatbot/blob/master/Data_load.py'>Data_load.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/harishankarn/Rag_driven_AI_chatbot/blob/master/Scraping.py'>Scraping.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/harishankarn/Rag_driven_AI_chatbot/blob/master/main.py'>main.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/harishankarn/Rag_driven_AI_chatbot/blob/master/requirements.txt'>requirements.txt</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -96,19 +97,19 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/harishankarn/Rag_driven_AI_chatbot/blob/master/utils/csv_utils.py'>csv_utils.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/harishankarn/Rag_driven_AI_chatbot/blob/master/utils/chunk_loader.py'>chunk_loader.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/harishankarn/Rag_driven_AI_chatbot/blob/master/utils/chunk_updater.py'>chunk_updater.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/harishankarn/Rag_driven_AI_chatbot/blob/master/utils/faiss_store.py'>faiss_store.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td></td>
 			</tr>
 			</table>
 		</blockquote>
