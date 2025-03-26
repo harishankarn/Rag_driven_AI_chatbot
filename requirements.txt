@@ -5,6 +5,7 @@ langchain_community # for community models
 langchain # for langchain models
 unstructured # for unstructured data
 sentence_transformers # for sentence embeddings
+langgraph
 
 transformers # for transformers models
 langchain_huggingface # for huggingface models

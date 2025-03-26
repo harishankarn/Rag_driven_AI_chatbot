@@ -3,6 +3,7 @@ import os
 import warnings
 from dotenv import load_dotenv
 from utils.faiss_store import load_faiss_vector_store
+from utils.models import embeddings, repo_id
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain_huggingface import HuggingFaceEndpoint
@@ -14,16 +15,13 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 sys.path.append(os.path.join(os.path.dirname(__file__), 'utils'))
 
 # Use the function to load the FAISS vector store
-VectorStore = load_faiss_vector_store("Data/faiss_store_huggingFace.pkl")
+VectorStore = load_faiss_vector_store("Data/faiss_store_huggingFace.pkl", embeddings)
 retriever=VectorStore.as_retriever()
 
 # Load the Hugging Face API token from the .env file
 load_dotenv()
 Token = os.getenv('HuggingFaceToken')
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = Token
-
-# Define the Hugging Face repository ID
-repo_id="mistralai/Mistral-7B-Instruct-v0.2"
 
 llm = HuggingFaceEndpoint(
     repo_id=repo_id,

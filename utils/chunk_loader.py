@@ -1,8 +1,11 @@
+#from langchain_community.document_loaders import WebBaseLoader
+#from langchain_community.document_loaders.web_base import WebBaseLoader
 from langchain_community.document_loaders import UnstructuredURLLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-def load_and_split_data(urls, chunk_size=1000, chunk_overlap=200):
+def load_and_split_data(urls, chunk_size=1000, chunk_overlap=200): 
     # Load Data from URLs
+    #loaders = WebBaseLoader(urls=urls)
     loaders = UnstructuredURLLoader(urls=urls)
     data = loaders.load()
     # data # Print Data
