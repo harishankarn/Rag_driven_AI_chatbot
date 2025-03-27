@@ -1,3 +1,4 @@
 from .csv_utils import get_urls_from_csv
 from .chunk_updater import check_and_update_chunks
 from .faiss_store import update_or_create_faiss_vector_store
+from .json_utils import get_urls_from_json

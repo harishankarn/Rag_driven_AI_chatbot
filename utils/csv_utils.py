@@ -1,4 +1,3 @@
-# csv_utils.py
 import csv
 
 # Function to extract URLs from a CSV file
